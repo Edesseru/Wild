@@ -35,7 +35,7 @@ public class Wild extends PluginBase {
 				if (sender.hasPermission("gxwild.command.wild")) {
 					if (sender instanceof Player) {
 						x = Utils.rand(1, 35000);
-						y = Utils.rand(1, 123);
+						y = Utils.rand(100, 256);
 						z = Utils.rand(1, 35000);
 
 						Player p = (Player) sender;
